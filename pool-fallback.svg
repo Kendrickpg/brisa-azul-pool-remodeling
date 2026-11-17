@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-label="Illustration of a serene outdoor pool">
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#92bbc0"/><stop offset=".57" stop-color="#e1e5da"/><stop offset="1" stop-color="#e9dec9"/></linearGradient>
+  <linearGradient id="water" x2="0" y2="1"><stop stop-color="#1b7181"/><stop offset=".55" stop-color="#278f9d"/><stop offset="1" stop-color="#4ba7ad"/></linearGradient>
+  <linearGradient id="stone" x2="1" y2="1"><stop stop-color="#d9d4c8"/><stop offset="1" stop-color="#bdbbab"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="11"/></filter>
+  <pattern id="ripples" width="170" height="105" patternUnits="userSpaceOnUse"><path d="M-50 40 Q4 9 65 40T190 40 M-50 90Q4 59 65 90T190 90" fill="none" stroke="#b3e6e7" stroke-opacity=".30" stroke-width="4"/></pattern>
+</defs>
+<rect width="1600" height="1100" fill="url(#sky)"/>
+<rect y="280" width="1600" height="300" fill="#d7d7c8"/>
+<path d="M0 330 L660 170 1600 345 1600 470 0 470Z" fill="#a4ac9c"/>
+<path d="M0 395 L490 250 1010 360 1600 250 1600 515 0 515Z" fill="#6d8074"/>
+<rect y="493" width="1600" height="607" fill="url(#stone)"/>
+<path d="M0 620L1600 620M0 805L1600 805" fill="none" stroke="#b3b5a9" stroke-width="5"/>
+<path d="M285 505L1580 514 1640 1110 95 1100Z" fill="#f5f0de"/>
+<path d="M325 546L1534 549 1583 1100 148 1100Z" fill="url(#water)" stroke="#e2eee7" stroke-width="11"/>
+<path d="M325 546L1534 549 1583 1100 148 1100Z" fill="url(#ripples)"/>
+<path d="M325 546L1534 549 1583 1100 148 1100Z" fill="none" stroke="#0d778b" stroke-width="8" opacity=".7"/>
+<path d="M410 615Q670 575 900 645T1450 650M270 900Q650 860 900 930T1540 930" fill="none" stroke="#e4fcf3" opacity=".24" stroke-width="12"/>
+<g opacity=".7"><path d="M98 1110Q60 680 84 385" fill="none" stroke="#5d5646" stroke-width="33"/><path d="M82 385Q15 250-200 250M82 385Q150 240 360 270M82 385Q-40 320-120 455M82 385Q230 355 336 470M82 385Q70 255 105 190" fill="none" stroke="#476c54" stroke-width="46" stroke-linecap="round"/></g>
+<g opacity=".58"><path d="M1510 620Q1487 330 1425 160" fill="none" stroke="#5d5646" stroke-width="27"/><path d="M1425 160Q1285 70 1140 108M1425 160Q1480 80 1630 112M1425 160Q1330 200 1242 270M1425 160Q1535 245 1690 250" fill="none" stroke="#476c54" stroke-width="37" stroke-linecap="round"/></g>
+<rect width="1600" height="1100" fill="#164a52" opacity=".08"/>
+</svg>
