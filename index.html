@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://images.unsplash.com; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
   <meta name="theme-color" content="#102f39">
   <meta name="description" content="Brisa Azul Pool Remodeling — pool tile, coping, plaster, resurfacing and renovations in South Florida. Request a quote for your next pool project.">
   <meta property="og:title" content="Brisa Azul | Pool Remodeling in South Florida">
@@ -117,9 +118,8 @@
         <div class="contact-copy"><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span><span data-i18n="contactEyebrow">LET'S CREATE SOMETHING BEAUTIFUL</span></p><h2 class="serif-heading" id="contact-title" data-i18n="contactTitle">Your next chapter<br><em>starts here.</em></h2><p data-i18n="contactIntro">Tell us about your pool and what you're envisioning. We'll be in touch to discuss your project.</p><div class="region-pill"><span class="region-dot"></span><span data-i18n="region">Proudly serving South Florida</span></div></div>
         <div class="form-panel">
           <h3 data-i18n="formTitle">Tell us about your project</h3>
-          <p class="form-subtitle" data-i18n="formSub">A few details are all we need to get started.</p>
-          <form id="contact-form" name="pool-inquiry" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="pool-inquiry">
+          <p class="form-subtitle" data-i18n="formSub">Preview only — submissions are not enabled.</p>
+          <form id="contact-form" name="pool-inquiry">
             <input type="hidden" name="language" id="contact-language" value="en">
             <p class="hidden-field"><label>Don't fill this out <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
             <div class="form-row">
@@ -128,8 +128,8 @@
             </div>
             <div class="form-field"><label for="phone" data-i18n="labelPhone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required minlength="7" maxlength="30" data-i18n-placeholder="placeholderPhone" placeholder="(305) 555-0000"></div>
             <div class="form-field"><label for="details" data-i18n="labelDetails">Tell us about the job</label><textarea id="details" name="description" rows="5" required minlength="10" maxlength="3000" data-i18n-placeholder="placeholderDetails" placeholder="What would you like to update about your pool?"></textarea></div>
-            <button type="submit" class="button button-dark submit-button"><span data-i18n="sendRequest">Send inquiry</span><span aria-hidden="true">↗</span></button>
-            <p class="form-privacy" data-i18n="formPrivacy">We’ll use your details only to follow up about your project.</p>
+            <button type="button" data-demo-submit class="button button-dark submit-button"><span data-i18n="sendRequest">Send inquiry</span><span aria-hidden="true">↗</span></button>
+            <p class="form-privacy" data-i18n="formPrivacy">Preview only — no details are sent or saved. Please do not enter real personal information.</p>
             <p id="form-feedback" class="form-feedback" role="status" aria-live="polite" hidden></p>
           </form>
         </div>
